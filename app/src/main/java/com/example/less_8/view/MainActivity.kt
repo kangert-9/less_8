@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                 .replace(id.container, MainFragment.newInstance())
                 .commitNow()
-            binding.buttonHome.setTextColor(getColor(purple_700))
-            binding.buttonHome.setBackgroundColor(getColor(white))
 
         }
         initView()
@@ -40,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             addFragment(HistoryFragment())
         }
         binding.buttonRat.setOnClickListener {
-            addFragment(RatingsFragment())
+            addFragment(ContentProviderFragment())
         }
     }
 

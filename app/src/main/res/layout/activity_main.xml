@@ -52,9 +52,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/purple_500"
             android:text="@string/home"
-            android:textColor="@color/white"
+            android:textColor="@color/purple_700"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/buttonFav"
             app:layout_constraintStart_toStartOf="parent" />
@@ -65,9 +64,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/purple_500"
             android:text="@string/favorite"
-            android:textColor="@color/white"
+            android:textColor="@color/purple_700"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/buttonRat"
             app:layout_constraintStart_toEndOf="@id/buttonHome" />
@@ -78,9 +76,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/purple_500"
             android:text="@string/ratings"
-            android:textColor="@color/white"
+            android:textColor="@color/purple_700"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/buttonFav" />

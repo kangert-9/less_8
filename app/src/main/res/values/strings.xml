@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">less_8</string>
     <string name="home">HOME</string>
-    <string name="favorite">FAVORITES</string>
-    <string name="ratings">RATINGS</string>
+    <string name="favorite">HISTORY</string>
+    <string name="ratings">CALLS</string>
     <string name="favorites_fragment">This fragment is for favorites</string>
     <string name="ratings_fragment">This fragment is for ratings</string>
     <string name="search">search</string>
