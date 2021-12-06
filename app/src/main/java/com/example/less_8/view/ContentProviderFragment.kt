@@ -27,7 +27,7 @@ class ContentProviderFragment  : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentContentProviderBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -84,13 +84,11 @@ class ContentProviderFragment  : Fragment() {
     ) {
         when (requestCode) {
             REQUEST_CODE -> {
-                // Проверяем, дано ли пользователем разрешение по нашему запросу
                 if ((grantResults.isNotEmpty() &&
                             grantResults[0] == PackageManager.PERMISSION_GRANTED)
                 ) {
                     getContacts()
                 } else {
-                    // Поясните пользователю, что экран останется пустым, потому что доступ к контактам не предоставлен
                     context?.let {
                         AlertDialog.Builder(it)
                             .setTitle("Доступ к контактам")

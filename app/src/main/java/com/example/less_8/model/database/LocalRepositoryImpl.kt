@@ -9,8 +9,8 @@ class LocalRepositoryImpl(private val localDataSource: HistoryDao) :
         return convertHistoryEntityToFilm(localDataSource.all())
     }
 
-    override fun saveEntity(weather: Film) {
-        localDataSource.insert(convertFilmToEntity(weather))
+    override fun saveEntity(film: Film) {
+        localDataSource.insert(convertFilmToEntity(film))
     }
 
     fun convertHistoryEntityToFilm(entityList: List<HistoryEntity>):
