@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "159189902240",
+    "project_id": "less-8",
+    "storage_bucket": "less-8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159189902240:android:80fa1cd13b57b962bb7ac5",
+        "android_client_info": {
+          "package_name": "com.example.less_8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159189902240-0gid4qfuj3bduqh0ba3lric3i7apt0sb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ifChp3I5FbzO0YB1SomD3CSFIhU4yEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159189902240-0gid4qfuj3bduqh0ba3lric3i7apt0sb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
